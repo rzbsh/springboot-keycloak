@@ -31,7 +31,7 @@ public class AuthorizationServerApp {
 			Integer port = serverProperties.getPort();
 			String keycloakContextPath = keycloakServerProperties.getContextPath();
 
-			LOG.info("Embedded Keycloak started: http://localhost:{}{} to use keycloak", port, keycloakContextPath);
+			LOG.info("Embedded Keycloak started: http://78.47.114.254:{}{} to use keycloak", port, keycloakContextPath);
 		};
 	}
 
